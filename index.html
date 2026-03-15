@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Numerical Magic Calculator</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="magic-container">
+
+<h1>🔮 Numerical Magic Calculator</h1>
+
+<p class="subtitle">Solve Mathematical Spells with Numerical Methods</p>
+
+<select id="method">
+<option value="">Choose a Spell</option>
+<option value="simpson">Simpson's 1/3 Rule</option>
+<option value="rk">Runge-Kutta Method</option>
+<option value="power">Power Method</option>
+</select>
+
+<br><br>
+
+<button onclick="startCalculation()">Cast Spell ✨</button>
+
+<br><br>
+
+<div id="inputs"></div>
+
+
+<!-- MAGIC ANIMATION -->
+
+<div id="magicAnimation" class="magic-animation">
+
+<div class="wand"></div>
+
+<div class="magic-glow"></div>
+
+<div class="magic-particles">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="sparkles">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="smoke"></div>
+
+</div>
+
+
+<!-- RESULT -->
+
+<div id="resultBox" class="result-box hidden"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
